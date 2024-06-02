@@ -108,8 +108,8 @@ BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
 BOARD_VNDK_VERSION := current
 
 # VINTF
-DEVICE_MANIFEST_FILE += $(CONFIGS_PATH)/vintf/manifest.xml
-DEVICE_MATRIX_FILE += $(CONFIGS_PATH)/vintf/compatibility_matrix.xml
+DEVICE_MANIFEST_FILE += $(CONFIGS_PATH)/vintf/vintf/manifest.xml
+DEVICE_MATRIX_FILE += $(CONFIGS_PATH)/vintf/vintf/compatibility_matrix.xml
 
 # Inherit the proprietary files
 include vendor/infinix/X657B/BoardConfigVendor.mk
