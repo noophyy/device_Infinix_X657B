@@ -109,7 +109,7 @@ BOARD_VNDK_VERSION := current
 
 # VINTF
 DEVICE_MANIFEST_FILE += $(CONFIGS_PATH)/vintf/manifest.xml
-DEVICE_MATRIX_FILE := $(CONFIGS_PATH)/vintf/compatibility_matrix.xml
+DEVICE_MATRIX_FILE += $(CONFIGS_PATH)/vintf/compatibility_matrix.xml
 
 # Inherit the proprietary files
 include vendor/infinix/X657B/BoardConfigVendor.mk
